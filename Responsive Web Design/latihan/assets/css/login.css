@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-gambar {
+    width: calc(100% - 350px);
+    background-image: url(/latihan/assets/image/pexels-baskin-creative-studios-1766838.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-login {
+    width: 350px;
+    height: 100vh;
+    padding: 10px 20px 10px 20px;
+}
+
+.box-login h5 {
+    font-size: 32px;
+}
+
+.box-login label {
+    display: block;
+    font-size: 20px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.box-login input {
+    width: 100%;
+    padding: 10px 0 10px 0;
+    font-size: 20px;
+    border: 0;
+    border-bottom: 1px solid gray;
+}
+
+.box-login button {
+    width: 100%;
+    padding: 10px 0 10px 0;
+    margin-top: 20px;
+    background-image: linear-gradient(180deg, rgb(39, 39, 255), rgb(0, 0, 0));
+    color: white;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+}

@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+}
+
+.kepala {
+  border: 1px solid black;
+  width: 100%;
+  height: 182px;
+}
+
+.badan {
+  border: 1px solid black;
+  width: 95%;
+  height: 400px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.box-medsos {
+  border: 1px solid black;
+  width: 100%;
+  height: 45px;
+  padding-top: 5px;
+  /* padding-left: 5px; */
+  display: flex;
+}
+
+.box-logo {
+  border: 1px solid black;
+  width: 100%;
+  height: 85px;
+  margin-top: 1px;
+}
+
+.box-menu {
+  border: 1px solid black;
+  width: 100%;
+  height: 40px;
+  margin-top: 1px;
+}
+
+.tanggal {
+  border: 1px solid black;
+  width: 200px;
+  height: 35px;
+  position: absolute;
+  left: 5px;
+}
+
+.medsos {
+  border: 1px solid black;
+  width: 250px;
+  height: 35px;
+  /* margin-left: 75%; */
+  position: absolute;
+  left: 80%;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.menu {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.tgl,
+.mds,
+.utm {
+  font-weight: bold;
+}
+
+.utama {
+  border: 1px solid black;
+  width: 50%;
+  height: 100%;
+}
+
+.rekomendasi {
+  border: 1px solid black;
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+
+.utm {
+  font-size: 100px;
+}
+
+.rekomen {
+  border: 1px solid black;
+  width: 50%;
+  height: 100%;
+}
+
+.rekomen12 {
+  border: 1px solid black;
+  width: 100%;
+  height: 50%;
+}
+
+.rekomen34 {
+  border: 1px solid black;
+  width: 100%;
+  height: 49%;
+}
+
+.rek {
+  font-weight: bold;
+}

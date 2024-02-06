@@ -1,0 +1,32 @@
+div {
+     width: 400px;
+     height: 300px;
+     border: 1px solid gray;
+     color: #28282a;
+     background-color: antiquewhite;
+}
+
+#judul {
+     font-size: 15px;
+     color: red;
+}
+
+.biru {
+     color: blue;
+}
+
+.coklat {
+     color: brown;
+}
+
+.ungu {
+     color: purple;
+}
+
+h6,h5,p {
+     text-align: center;
+}
+
+body {
+     margin-left: 50%;
+}

@@ -1,0 +1,25 @@
+.gambar {
+    height: 12.5rem;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.box-icon {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.icon {
+    fill: black;
+    width: 1rem;
+}
+
+.box-icon, .title {
+    line-clamp: 1;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}

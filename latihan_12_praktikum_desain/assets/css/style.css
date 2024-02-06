@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 20px;
+}
+
+.seluruh {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* medsos */
+.medsos {
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    margin-left: 10vw;
+    padding: 20px 15px 20px 15px;
+    box-shadow: 0 0 5px 1px gray;
+    border-radius: 5px;
+}
+
+/* atas */
+.atas {
+    height: 50%;
+    border-bottom: 1px solid gray;
+}
+
+.photo-profile {
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid blue;
+    background-image: url(/assets/image/photo.jpg);
+}
+
+.nama-pengguna {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+.keahlian {
+    font-size: 16px;
+    color: gray;
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+.tinggal {
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+}
+
+.tombol {
+    display: flex;
+    justify-content: center;
+}
+
+.follow, .pesan {
+    margin-left: 5px;
+    border: 1px solid blue;
+    height: 30px;
+    width: 60px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pesan {
+    background-color: white;
+    color: blue;
+}
+/* akhir atas */
+
+/* bawah */
+.bawah {
+    height: 50%;
+}
+
+.bawah a {
+    text-decoration: none;
+    color: gray;
+    margin-left: auto;
+}
+
+.website, .github, .twitter, .instagram, .facebook {
+    display: flex;
+    border-bottom: 1px solid gray;
+    margin-bottom: -2px;
+}
+
+.facebook {
+    border: 0;
+}
+
+.bawah img {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.bawah img, .bawah p, .bawah a {
+    display: flex;
+    align-items: center;
+}
+
+.bawah a {
+    margin-right: 10px;
+}
+/* akhir bawah */
+/* akhir medsos */
+
+/* kanan */
+/* informasi pribadi */
+.informasi-pribadi {
+    width: 800px;
+    height: 280px;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px gray;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.label {
+    display: inline-block;
+    width: 150px;
+}
+
+.informasi-pribadi input {
+    width: 620px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.save {
+    width: 130px;
+    margin-left: 155px;
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* akhir informasi pribadi */
+
+/* project */
+.project {
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    height: 350px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 0 5px 1px gray;
+}
+
+.project h2 {
+    margin-top: 0;
+}
+
+.web-design {
+    height: 50px;
+}
+
+.abu {
+    background-color: rgba(128, 128, 128, 0.411);
+    height: 6px;
+    border-radius: 3px;
+}
+
+.web-design .warna {
+    background-color: blue;
+    width: 80%;
+    height: 6px;
+    border-radius: 3px;
+}
+
+.website-markup .warna {
+    background-color: brown;
+    width: 70%;
+    height: 6px;
+    border-radius: 3px;
+}
+
+.one-page .warna {
+    background-color: green;
+    width: 90%;
+    height: 6px;
+    border-radius: 3px;
+}
+
+.mobile-template .warna {
+    background-color: orange;
+    width: 60%;
+    height: 6px;
+    border-radius: 3px;
+}
+
+.backend-api .warna {
+    background-color: lightseagreen;
+    width: 65%;
+    height: 6px;
+    border-radius: 3px;
+}
+
+@media screen and (max-width:992px) {
+    .seluruh {
+        display: block;
+    }
+
+    .medsos {
+        margin-bottom: 20px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .informasi-pribadi, .project {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

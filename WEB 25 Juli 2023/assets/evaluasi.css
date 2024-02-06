@@ -1,0 +1,24 @@
+body {
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     background-color: brown;
+}
+
+#p1 {
+     color: blue;
+     background-color: yellow;
+     font-size: 14px;
+}
+
+#p2 {
+     color: yellow;
+     background-color: blue;
+     font-size: 18px;
+     text-align: right;
+}
+
+#p3 {
+     color: white;
+     background-color: blue;
+     font-size: 17px;
+     text-align: center;
+}

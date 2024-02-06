@@ -1,0 +1,90 @@
+body {
+     margin: 0;
+     background-image: url(Assets/img/bg-1.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+}
+
+.latar {
+     width: 100%;
+     height: 100%;
+     position: fixed;
+     right: 50;
+     top: 50;   
+}
+
+.bungkus {
+     position: absolute;
+     width: 500px;
+     height: 500px;
+     left: 36%;
+     top: 21%;
+}
+
+.box-login {
+     position: absolute;
+     width: 340px;
+     height: 390px;
+     background-color: white;
+     margin-left: 11%;
+     margin-top: 10%;
+     padding: 10px;
+     border-bottom: 2px;
+     border-right: 2px;
+     border-color: black;
+     border-right-style: solid;
+     border-bottom-style: solid;
+}
+
+.user {
+     width: 110px;
+     height: 110px;
+     border-radius: 55px;
+     margin-left: 34%;
+     margin-top: 10px;
+     margin-bottom: -15px;
+}
+
+.kata {
+     font-weight: 900;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-left: 14%;
+}
+
+.nama, .password {
+     margin-bottom: 0px;
+}
+
+.box-nama, .box-sandi {
+     width: 97%;
+     height: 30px;
+     border: 1px solid black;
+}
+
+.password {
+     margin-top: 10px;
+}
+
+.tombol {
+     display: flex;
+}
+
+.login, .register {
+     width: 47%;
+     height: 40px;
+     margin-top: 25px;
+     border-radius: 5px;
+}
+
+.login {
+     margin-right: 16px;
+     background-color: rgb(136, 0, 255);
+     color: white;
+     border: 0;
+}
+
+.register {
+     background-color: rgb(255, 227, 174);
+     border: 0;
+}

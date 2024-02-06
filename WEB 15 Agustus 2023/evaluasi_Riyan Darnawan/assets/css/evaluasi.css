@@ -1,0 +1,162 @@
+/* Body */
+body {
+    margin: 0;
+    background-color: rgb(255, 231, 233);
+    box-sizing: border-box;
+}
+/* End Body */
+
+/* Informasi */
+div#informasi {
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding-left: 20vw;
+    padding-right: 15vw;
+}
+
+div#informasi-tanggal {
+    padding-top: 5px;
+}
+
+div#informasi-medsos {
+    position: static;
+    float: right;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+div#informasi-medsos img {
+    width: 20px;
+    margin: 2px;
+}
+/* End Informasi */
+
+/* Banner */
+div#banner {
+    display: flex;
+    margin-bottom: 10px;
+    padding-left: 20vw;
+    padding-right: 15vw;
+}
+
+div#banner-box img {
+    width: 100px;
+    margin-right: 5px;
+}
+
+div#banner-title h4 {
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+div#banner-title i {
+    position: relative;
+    margin-top: 10px;
+    color: rgb(49, 43, 226);
+}
+/* End Banner */
+
+/* Navigasi */
+div#navigasi {
+    background-color: black;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+div#navigasi-box {
+    display: flex;
+    padding-left: 20vw;
+    padding-right: 15vw;
+    margin: auto;
+}
+
+div#navigasi-menu {
+    display: flex;
+}
+
+div#navigasi-menu a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div#navigasi-menu a:hover {
+    background-color: rgb(255, 119, 0);
+}
+
+div#navigasi-cari {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+div#navigasi-cari input, button {
+    height: 20px;
+}
+
+div#navigasi-cari button {
+    height: 26px;
+}
+
+div#navigasi-cari button img {
+    width: 10px;
+}
+/* End navigasi */
+
+/* Main Content */
+div#container {
+    display: flex;
+    padding-left: 20vw;
+    padding-right: 15vw;
+}
+
+div#artikel-utama img {
+    width: 49vw;
+}
+
+div.artikel-utama-header {
+    position: absolute;
+    margin-top: -140px;
+    width: 49vw;
+    height: 136px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+div.artikel-utama-header h4 {
+    color: white;
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+/* Sidebar */
+div.sidebar-box {
+    margin-bottom: 30px;
+}
+
+div.box-title {
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+div.box-title h4 {
+    padding-top: 5px;
+    color: white;
+    text-align: center;
+}
+
+div.box-content {
+    margin-left: 10px;
+}
+/* End sidebar */
+/* End Main content */

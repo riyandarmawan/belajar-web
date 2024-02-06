@@ -1,0 +1,27 @@
+#box-container {
+     background-color: darkgreen;
+     width: 200px;
+     height: 100px;
+     padding: 10px;
+     padding-left: 50px;
+     margin-bottom: 25px;
+}
+
+#box-2 {
+     background-color: chocolate;
+     width: 45%; /* mengikuti ukuran dari parent, 45% dikalikan parent*/
+     min-width: 210px;
+     max-width: 275px;
+     height: 100px;
+}
+
+#anak-box {
+     background-color: deepskyblue;
+     width: 100px;
+     height: 50px;
+}
+
+body {
+     padding: 0;
+     margin: 0;
+}
