@@ -36,12 +36,13 @@ $results = $koneksi->query($sql);
                     <th scope="col">Alamat</th>
                     <th scope="col">No. Telp</th>
                     <th scope="col">Tanggal Lahir</th>
+                    <th scope="col">#</th>
                 </tr>
             </thead>
             <tbody>
-                <?php 
-                    $no = 1;
-                    while ($result = $results->fetch_assoc()) : 
+                <?php
+                $no = 1;
+                while ($result = $results->fetch_assoc()) :
                 ?>
                     <tr>
                         <th scope="row"><?= $no ?></th>
@@ -50,10 +51,14 @@ $results = $koneksi->query($sql);
                         <td><?= $result['alamat'] ?></td>
                         <td><?= $result['no_telp'] ?></td>
                         <td><?= $result['tanggal_lahir'] ?></td>
+                        <td>
+                            <a href="#" class="btn btn-warning">Edit</a>
+                            <a href="#" class="btn btn-danger">Delete</a>
+                        </td>
                     </tr>
-                <?php 
+                <?php
                     $no++;
-                    endwhile; 
+                endwhile;
                 ?>
             </tbody>
         </table>
