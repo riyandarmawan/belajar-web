@@ -29,7 +29,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="no_telepon" class="form-label">No. Telp</label>
-                            <input type="tel" class="form-control" id="no_telepon" name="no_telepon" aria-describedby="emailHelp">
+                            <input type="tel" class="form-control" id="no_telp" name="no_telepon" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
                             <label for="tanggal_lahir" class="form-label">Tanggal Lahir</label>

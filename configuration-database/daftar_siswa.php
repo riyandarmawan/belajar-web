@@ -24,7 +24,7 @@ $results = $koneksi->query($sql);
 
 <body>
     <div class="container">
-        <h1>Data Siswa</h1>
+        <h1 class="text-center m-5">Data Siswa</h1>
 
         <!-- awal tabel -->
         <table class="table table-bordered">
@@ -36,7 +36,7 @@ $results = $koneksi->query($sql);
                     <th scope="col">Alamat</th>
                     <th scope="col">No. Telp</th>
                     <th scope="col">Tanggal Lahir</th>
-                    <th scope="col">#</th>
+                    <th scope="col">&nbsp;</th>
                 </tr>
             </thead>
             <tbody>
@@ -52,8 +52,8 @@ $results = $koneksi->query($sql);
                         <td><?= $result['no_telp'] ?></td>
                         <td><?= $result['tanggal_lahir'] ?></td>
                         <td>
-                            <a href="#" class="btn btn-warning">Edit</a>
-                            <a href="#" class="btn btn-danger">Delete</a>
+                            <a href="/edit-siswa.php?nis=<?= $result['nis'] ?>" class="btn btn-warning">Edit</a>
+                            <a href="/delete-siswa.php?nis=<?= $result['nis'] ?>" class="btn btn-danger">Delete</a>
                         </td>
                     </tr>
                 <?php
